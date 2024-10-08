@@ -47,7 +47,7 @@ kind: Service
 metadata:
   name: currencyservice
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: currencyservice
   ports:
