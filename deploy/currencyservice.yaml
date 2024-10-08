@@ -47,7 +47,7 @@ kind: Service
 metadata:
   name: currencyservice
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: currencyservice
   ports:

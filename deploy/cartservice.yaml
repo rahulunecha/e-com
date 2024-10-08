@@ -43,7 +43,7 @@ kind: Service
 metadata:
   name: cartservice
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     app: cartservice
   ports:
